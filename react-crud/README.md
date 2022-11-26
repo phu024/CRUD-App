@@ -9,7 +9,7 @@ We will build a React Tutorial Application in that:
 Here are screenshots of our React CRUD Application.
 
 #### This React Client consumes the following Web API:
-URL : [http://localhost:8080](http://localhost:8080)
+`URL : http://localhost:8080`
 | Methods | Urls | Actions |
 | ------- | ---- | ------- |
 POST | /api/tutorials | create new Tutorial
