@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Overview of React.js CRUD App example with Web API
+Overview of React.js CRUD App example with Web API
+We will build a React Tutorial Application in that:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- There is a Search bar for finding Tutorials by title.
+
+Here are screenshots of our React CRUD Application.
+
+#### This React Client consumes the following Web API:
+URL : [http://localhost:8080](http://localhost:8080)
+| Methods | Urls | Actions |
+| ------- | ---- | ------- |
+POST | /api/tutorials | create new Tutorial
+GET | /api/tutorials | retrieve all Tutorials
+GET | /api/tutorials/:id | retrieve a Tutorial by :id
+PUT | /api/tutorials/:id |update a Tutorial by :id
+DELETE | /api/tutorials/:id | delete a Tutorial by :id
+DELETE | /api/tutorials | delete all Tutorials
+GET | /api/tutorials/published | find all published Tutorials
+GET | /api/tutorials?title=[keyword] | find all Tutorials which title contains keyword
 
 ## Available Scripts
 
