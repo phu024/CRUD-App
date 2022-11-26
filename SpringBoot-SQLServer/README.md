@@ -19,3 +19,8 @@ GET | /api/tutorials?title=[keyword] | find all Tutorials which title contains k
 
 – We make CRUD operations & finder methods with Spring Data JPA’s JpaRepository.
 – The database will be SQL Server (MSSQL) by configuring project dependency & datasource.
+
+## Two ways we can start the standalone Spring boot application.
+> 1. From the root directory of the application and type the following command to run it -
+`$ mvn spring-boot:run`
+> 2. From your IDE, run the SpringBootSqlServerApplication.main() method as a standalone Java class that will start the embedded Tomcat server on port 8080 and point the browser to http://localhost:8080/.
