@@ -8,7 +8,7 @@ public class Tutorial {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long Id;
+    private long Id;
 
     @Column(name = "title")
     private String title;
@@ -28,7 +28,14 @@ public class Tutorial {
         this.published = publishes;
     }
 
-    public Long getId() {
+    public Tutorial(long id, String title, String description, boolean published) {
+        Id = id;
+        this.title = title;
+        this.description = description;
+        this.published = published;
+    }
+
+    public long getId() {
         return Id;
     }
 
